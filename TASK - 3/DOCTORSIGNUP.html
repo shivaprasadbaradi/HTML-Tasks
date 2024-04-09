@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>DOCTOR SIGNUP</title>
+    </head>
+    <body>
+     <header>
+       <h1>
+        <center>
+            <font color = "orange">
+                APOLLO HOSPITALS
+            </font>
+        </center>
+       </h1>
+        <P align = "center">
+            <a href="HOME.html" target="_blank"><b>About Apollo</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="BRANCHES.html" target="_blank"><b>Apollo Branches</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="SERVICES.html" target="_blank"><b>Apollo Services</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="LABS.html" target="_blank"><b>OUR Labs</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="DOCTORS.html" target="_blank"><b>OUR Doctors</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#" target="_blank"><b>Doctor SignUP</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="DOCTORSIGNIN.html" target="_blank"><b>Doctor SignIN</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="PATIENTSIGNUP.html" target="_blank"><b>Patient SignUP</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="PATIENTSIGNIN.html" target="_blank"><b>Patient SignIN</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="CONTACT.html" target="_blank"><b>Contact US</b></a>
+        </P>
+     </header>
+     <hr>
+     <form action="server1" name="Dr-Registration-form" method="post">
+        <table cellspacing="25px" cellpadding="5px" align="center" border="0px" style="background-color:orange; width: 50%;">
+            <caption><h3>Doctor Signup</h3></caption>
+            <tr>
+                <td>
+                   <label for="id1">First Name</label><br><input type="text" id="id1" name="First Name" style="width: 98%;">
+                </td>
+                <td>
+                    <label for="id2">Last Name</label><br><input type="text" id="id2" name="Last Name" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id3">User Name</label><br><input type="text" id="id3" name="User Name" style="width: 98%;">
+                </td>
+                <td>
+                    <label for="id4">Password</label><br><input type="password" id="id4" name="Password" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id5">Email Id</label><br><input type="email" id="id5" name="Email Id" style="width: 98%;">
+                </td>
+                <td>
+                    <label for="id6">Mobile No</label><br><input type="number" id="id6" name="Mobile No" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id7">Specialist IN</label><br>
+                    <select name="Specialist IN" id="id7" style="width: 98%;">
+                        <option value="disabled selected hidden">Please Select a specalist</option>
+                        <option value="Anaesthesia"> Anaesthesia</option>
+                        <option value="ENT">ENT</option>
+                        <option value="dentist">dentist</option>
+                        <option value="dietician">dietician</option>
+                        <option value="homoeopthy">homoeopthy</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Liver&Gastro">Liver&Gastro</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Gynacology">Gynacology</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="id8">Gender</label><br>
+                    <select name="Gender" id="id8" style="width: 98%;">
+                        <option value="disabled selected hidden" style="width: 50%;">Please Select a Gender</option>
+                        <option value="male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id9">State</label><br>
+                    <select name="State" id="id9" style="width: 95%;">
+                        <option value="disabled selected hidden">Please Select a State</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="GA">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="GA">Goa</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="WB">West Bengal</option>
+                </td>
+                <td>
+                    <label for="id10">city</label><br>
+                    <select name="city" id="id10" style="width: 98%;"">
+                       <option value="disabled selected hidden">Please Select a city</option>
+                       <option value="Amaravati">Amaravati</option>
+                       <option value="Itanagar">Itanagar</option>
+                       <option value="Dispur">Dispur</option>
+                       <option value="patna">patna</option>
+                       <option value="raipur">raipur</option>
+                       <option value="gandhinagar">gandhinagar</option>
+                       <option value="chandigarh">chandigarh</option>
+                       <option value="shimla">shimla</option>
+                       <option value="srinagar">srinagar</option>
+                       <option value="panaji">panaji</option>
+                       <option value="ranchi">ranchi</option>
+                       <option value="bangalore">bangalore</option>
+                       <option value="thiruvananthapuram">thiruvananthapuram</option>
+                       <option value="bhopal">bhopal</option>
+                       <option value="mumbai">mumbai</option>
+                       <option value="imphal">imphal</option>
+                       <option value="shillong">shillong</option>
+                       <option value="aizwal">aizwal</option>
+                       <option value="kohima">kohima</option>
+                       <option value="bubaneshwar">bubaneshwar</option>
+                       <option value="chandigarh">chandigarh</option>
+                       <option value="jaipur">jaipur</option>
+                       <option value="gangtok">gangtok</option>
+                       <option value="chennai">chennai</option>
+                       <option value="hyderabad">hyderabad</option>
+                       <option value="agartala">agartala</option>
+                       <option value="dehradun">dehradun</option>
+                       <option value="lucknow">lucknow</option>
+                       <option value="kolkata">kolkata</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="id11">Address</label><br><textarea name="Address" id="id11" cols="10" rows="5" style="width: 95%;"></textarea>
+                </td>
+                <td>
+                    <label for="id12">code</label><br>
+                    <input type="text" id="id12" name="code" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" style="background-color: rgb(19, 19, 94); color: white;"></td>
+            </tr>
+        </table>
+     </form>
+     <hr>
+     <footer>
+        <center>
+            <font color = "aqua">
+                <h4> Copyright @ 360digrii</h4>
+            </font>
+        </center>
+     </footer>
+    </body>
+</html>
